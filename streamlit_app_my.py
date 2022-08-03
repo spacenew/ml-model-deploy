@@ -23,12 +23,10 @@ def predict(answers):
 
 st.markdown("<h1 style='text-align: center; color: black;'>Health Insurance Price Forecast</h1>", unsafe_allow_html = True)
 
-st.markdown("Welcome to our **Health Insurance Price Forecast**. Fill the information below and click **Predict Value** to check how much your insurance would cost.", unsafe_allow_html = True)
-
 
 answers = {}
 
-expander = st.expander("👤 Personal Information")
+expander = st.expander("Personal Information")
 
 with expander:
     answers['age'] = st.slider('What is your age?', help = 'The slider can be moved using the arrow keys.', min_value = 0, max_value = 100, step = 1)
@@ -43,6 +41,6 @@ with expander:
 
     answers['region'] = st.selectbox('In what US region do you live?', ['Southwest', 'Southeast', 'Northwest', 'Northeast'])
 
-if st.button('Predict Value'):
+if st.button('Predict Cost'):
     value = predict(answers)
     st.write(f'Your insurance would cost {round(value, 2)} USD.')
