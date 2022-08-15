@@ -1,8 +1,7 @@
 # ml-model-deploy
 
 
-As a first step to becoming familiar with our web app's functioning, we recommend setting up a running instance on your own local machine.
-
+Local running.
 To do this, follow the steps below by running the given commands within a Git bash (Windows), or terminal (Mac/Linux):
 
 
