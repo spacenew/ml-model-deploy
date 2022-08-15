@@ -1,17 +1,15 @@
 from flask import Flask
 from flask import request
 from flask import jsonify
+
 import pandas as pd
-import pickle
+
 import preprocess_data
+from train import load_pickle
 
-model_file = 'models/best_rf_model.b'
-
-with open(model_file, 'rb') as f_in:
-    model = pickle.load(f_in)
+MODEL_NAME = 'models/best_rf_model.b'
 
 app = Flask('insurance-prediction')
-
 
 def predict(features: dict):
     df = pd.DataFrame.from_dict([features], orient='columns')
@@ -34,4 +32,5 @@ def predict_endpoint():
 
 
 if __name__ == "__main__":
+    model = load_pickle(MODEL_NAME)
     app.run(debug=True, host='0.0.0.0', port=9696)

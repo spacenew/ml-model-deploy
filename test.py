@@ -3,16 +3,16 @@ import requests
 features = {
     "age": 30,
     "sex": "male",
-    "bmi": 22,
-    "children": 2,
-    "smoker": "no",
+    "bmi": 23,
+    "children": 1,
+    "smoker": "yes",
     "region": "northwest"
 }
 
 url = 'http://localhost:9696/predict'
 
 
-def request_prediction(url):
+def request_prediction(url: object):
     response = requests.post(url, json=features)
     return response.json()
 

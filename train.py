@@ -1,11 +1,13 @@
 import os
 import pickle
+
 import numpy as np
-from hyperopt import STATUS_OK, Trials, fmin, hp, tpe
-from hyperopt.pyll import scope
+
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
-from sklearn.model_selection import GridSearchCV, RandomizedSearchCV, KFold
+
+from hyperopt import STATUS_OK, Trials, fmin, hp, tpe
+from hyperopt.pyll import scope
 
 
 def load_pickle(filename):

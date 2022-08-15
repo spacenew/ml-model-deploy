@@ -55,7 +55,7 @@ def run(raw_data_path: str, dest_path: str):
     print(f'Start splitting data...')
     X_train, X_test, y_train, y_test = split_data(df)
 
-    # create dest_path folder unless it already exists
+    # create dest_path folder
     os.makedirs(dest_path, exist_ok=True)
 
     # save datasets
