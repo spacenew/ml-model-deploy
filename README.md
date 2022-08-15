@@ -18,10 +18,14 @@ cd ml-model-deploy
 ```
 2. **Create virtual environment**
 
+*via python**
 
+Then you should create a virtual environment named .venv
 
-1. Installing dependencies
-
+Installing dependencies
+```bash
+python -m venv .venv
+```
 Install pipenv:
 
 ```bash
