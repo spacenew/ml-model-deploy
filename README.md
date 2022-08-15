@@ -20,7 +20,6 @@ cd ml-model-deploy
 
 *via python*
 
-```
 Install pipenv:
 
 ```bash
