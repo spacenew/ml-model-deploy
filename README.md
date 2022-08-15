@@ -22,8 +22,8 @@ To do this, follow the steps below by running the given commands within a Git ba
  3. Navigate to the base of the cloned repo, and start the Streamlit app.
 
  ```bash
- cd unsupervised-predict-streamlit-template/
- streamlit run edsa_recommender.py
+ cd ml-model-deploy/
+ streamlit run health_insurance_app.py
  ```
 
  If the web server was able to initialise successfully, the following message should be displayed within your bash/terminal session:
