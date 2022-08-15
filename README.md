@@ -1,23 +1,30 @@
 # ml-model-deploy
 
 
-
 As a first step to becoming familiar with our web app's functioning, we recommend setting up a running instance on your own local machine.
 
 To do this, follow the steps below by running the given commands within a Git bash (Windows), or terminal (Mac/Linux):
 
- 1. Ensure that you have the prerequisite Python libraries installed on your local machine:
 
- ```bash
- pip install -U streamlit numpy pandas scikit-learn hyperopt
- conda install -c conda-forge scikit-surprise
- ```
+1. Installing dependencies
 
- 2. Clone the *forked* repo to your local machine.
+Install pipenv:
 
- ```bash
- git clone https://github.com/{your-account-name}/ml-model-deploy.git
- ```  
+```bash
+pip install pipenv
+```
+
+Install the dependencies:
+
+```bash
+pipenv install
+```
+
+ 2.  Activate virtual env:
+
+```bash
+pipenv shell
+```
 
  3. Navigate to the base of the cloned repo, and start the Streamlit app.
 
