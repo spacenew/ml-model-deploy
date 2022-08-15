@@ -4,6 +4,21 @@ Datasets: https://www.kaggle.com/datasets/mirichoi0218/insurance
 Local running.
 To do this, follow the steps below by running the given commands within a Git bash (Windows), or terminal (Mac/Linux):
 
+1. **Installation**
+
+Clone the repo
+
+```bash
+git clone https://github.com/spacenew/ml-model-deploy.git
+```
+cd into the project root folder
+
+```bash
+cd ml-model-deploy
+```
+2. **Create virtual environment**
+
+
 
 1. Installing dependencies
 
