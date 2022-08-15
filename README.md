@@ -18,13 +18,8 @@ cd ml-model-deploy
 ```
 2. **Create virtual environment**
 
-*via python**
+*via python*
 
-Then you should create a virtual environment named .venv
-
-Installing dependencies
-```bash
-python -m venv .venv
 ```
 Install pipenv:
 
@@ -32,7 +27,7 @@ Install pipenv:
 pip install pipenv
 ```
 
-Install the dependencies:
+Install the dependencies from Pipfile:
 
 ```bash
 pipenv install
@@ -44,7 +39,7 @@ pipenv install
 pipenv shell
 ```
 
- 3. Navigate to the base of the cloned repo, and start the Streamlit app.
+ 3. **Build and run the Application Locally**.
 
  ```bash
  cd ml-model-deploy/
