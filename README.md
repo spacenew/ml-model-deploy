@@ -35,12 +35,12 @@ To do this, follow the steps below by running the given commands within a Git ba
 Clone the repo
 
 ```bash
-git clone https://github.com/spacenew/ml-model-deploy.git
+git clone https://github.com/spacenew/streamlit-health-insurance-predict.git
 ```
 cd into the project root folder
 
 ```bash
-cd ml-model-deploy
+cd streamlit-health-insurance-predict
 ```
 2. **Create virtual environment**
 
