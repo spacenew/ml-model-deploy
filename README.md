@@ -41,7 +41,6 @@ pipenv shell
  3. **Build and run the Application Locally**.
 
  ```bash
- cd ml-model-deploy/
  streamlit run app.py
  ```
 
