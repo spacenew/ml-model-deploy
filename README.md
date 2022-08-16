@@ -106,3 +106,19 @@ python test.py
     Local URL: http://localhost:8501
   Network URL: http://192.168.0.71:8501
 ```
+
+# 3. Docker  
+
+Build a Docker image:  
+
+```bash
+docker build -t insurance-predict .
+```
+Run docker image:
+
+```bash
+docker run -it --rm -p 8501:8501 insurance-predict
+```
+
+
+
