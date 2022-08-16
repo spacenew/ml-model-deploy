@@ -6,6 +6,7 @@
 #hyperopt
 #docker
 
+# 1. Description
 Datasets: https://www.kaggle.com/datasets/mirichoi0218/insurance  
 ***Target***: Predict insurance costs.  
 
@@ -27,10 +28,11 @@ objective index of body weight (kg / m ^ 2) using the ratio of height to weight,
 **charges**: Individual medical costs billed by health insurance
 
 
+# 2. How to Run
 
 To do this, follow the steps below by running the given commands within a Git bash (Windows), or terminal (Mac/Linux):
 
-1. **Installation**
+2.1. **Installation**
 
 Clone the repo
 
@@ -42,7 +44,7 @@ cd into the project root folder
 ```bash
 cd streamlit-health-insurance-predict
 ```
-2. **Create virtual environment**
+2.2. **Create virtual environment**
 
 *via python*
 
@@ -58,12 +60,13 @@ Install the dependencies from Pipfile:
 pipenv install
 ```
 
- 2.  Activate virtual env:
+Activate virtual env:
 
 ```bash
 pipenv shell
 ```
-3. **Build and run the Application using gunicorn**
+
+2.3. **Build and run the Application using gunicorn**
 if you want to retrain the model and resave the model you can do it by running
 
 ```bash
@@ -82,13 +85,13 @@ gunicorn --bind 0.0.0.0:9696 predict:app
 ```
 Project should be running locally at http://localhost:9696
 
-*Run the script to make test forecast*
+*Run the script to make test prediction*
 
 ```bash
 python test.py
 ```
 
- 4. **Build and run the Streamlit Application Locally**.
+ 2.4. **Build and run the Streamlit Application Locally**.
 
  ```bash
  streamlit run app.py
