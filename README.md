@@ -1,4 +1,6 @@
-# ml-model-deploy
+# streamlit-health-insurance-predict
+
+
 Datasets: https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 Local running.
@@ -62,12 +64,11 @@ Project should be running locally at http://localhost:9696
 python test.py
 ```
 
- 4. **Build and run the Application Locally**.
+ 4. **Build and run the Streamlit Application Locally**.
 
  ```bash
  streamlit run app.py
  ```
-
 
  If the web server was able to initialise successfully, the following message should be displayed within your bash/terminal session:
 
