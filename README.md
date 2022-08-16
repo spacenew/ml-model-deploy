@@ -73,13 +73,13 @@ if you want to retrain the model and resave the model you can do it by running
 ```bash
 python ./packages/train.py
 ```
-To deploy the Flask app locally using gunicorn. 
+To deploy the Flask app locally. 
 
 *Run it directly via python file*
 ```bash
 python predict.py
 ```
-*Using gunicorn*
+*Run gunicorn*
 
 ```bash
 gunicorn --bind 0.0.0.0:9696 predict:app
