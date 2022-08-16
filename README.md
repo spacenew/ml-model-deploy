@@ -68,7 +68,7 @@ pipenv shell
 
 2.3. **Build and run the Application using gunicorn**  
 
-if you want to retrain the model and resave the model you can do it by running
+if you want to retrain the model and resave the model you can do it by running:
 
 ```bash
 python ./packages/train.py
@@ -106,7 +106,7 @@ python test.py
     Local URL: http://localhost:8501
   Network URL: http://192.168.0.71:8501
 ```
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/spacenew/streamlit-health-insurance-predict/blob/main/images/app.jpg?raw=true)
 
 # 3. Docker  
 
