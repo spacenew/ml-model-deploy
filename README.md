@@ -42,7 +42,7 @@ pipenv shell
 
  ```bash
  cd ml-model-deploy/
- streamlit run health_insurance_app.py
+ streamlit run app.py
  ```
 
  If the web server was able to initialise successfully, the following message should be displayed within your bash/terminal session:
