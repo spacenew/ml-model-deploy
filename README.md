@@ -79,6 +79,8 @@ To deploy the Flask app locally.
 ```bash
 python predict.py
 ```
+OR
+
 *Run gunicorn*
 
 ```bash
