@@ -66,7 +66,7 @@ Activate virtual env:
 pipenv shell
 ```
 
-2.3. **Build and run the Application using gunicorn**  
+2.3. **Serving predictions using Flask and gunicorn**  
 
 if you want to retrain the model and resave the model you can do it by running:
 
