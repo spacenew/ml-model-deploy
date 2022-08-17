@@ -7,8 +7,9 @@
 #docker
 
 # 1. Description
-Datasets: https://www.kaggle.com/datasets/mirichoi0218/insurance  
-***Target***: Predict insurance costs.  
+Datasets: https://www.kaggle.com/datasets/mirichoi0218/insurance    
+
+***Purpose***: Predict health insurance costs.  
 
 Content:
 
