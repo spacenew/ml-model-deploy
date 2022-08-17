@@ -1,4 +1,5 @@
 import requests
+import json
 
 features = {
     "age": 30,
@@ -9,12 +10,11 @@ features = {
     "region": "northwest"
 }
 
-url = 'http://localhost:9696/predict'
-
-
 def request_prediction(url: object):
     response = requests.post(url, json=features)
     return response.json()
 
-
-print(request_prediction(url))
+if __name__ == "__main__":
+    host = "http://0.0.0.0:9696"
+    url = f'{host}/predict'
+    print(request_prediction(url))
